@@ -15,46 +15,50 @@
 #####################################challenge 1################################################################
 # Create a list with 5 elements, inside the variable my_list. You can include strings, booleans, numbers, etc.
 
-elements = ["water", "fire", 10, "house", 20 ]
-print(elements)
-# Add the element "motorcycle" to the following list of means of transportation:
+# elements = ["water", "fire", 10, "house", 20 ]
+# print(elements)
+# # Add the element "motorcycle" to the following list of means of transportation:
 
-transportation_means = ["plane", "car", "ship", "bicycle"]
-transportation_means.append("motorcycle")
-# append adds an elements to the end
-print(transportation_means)
-transportation_means.remove("car")
-print(transportation_means)
-newTrans = transportation_means.pop()
-# pop removes the last element
-print("my new trans is " +newTrans)
-transportation_means.insert(1,"Tesla")
-print(transportation_means)
-transportation_means.insert(2, "Lambo")
-print(transportation_means)
+# transportation_means = ["plane", "car", "ship", "bicycle"]
+# transportation_means.append("motorcycle")
+# # append adds an elements to the end
+# print(transportation_means)
+# transportation_means.remove("car")
+# print(transportation_means)
+# newTrans = transportation_means.pop()
+# # pop removes the last element
+# print("my new trans is " +newTrans)
+# transportation_means.insert(1,"Tesla")
+# print(transportation_means)
+# transportation_means.insert(2, "Lambo")
+# print(transportation_means)
 
 # You must not modify the already supplied line of code, but must use the appropriate list method to add a new element.
 
-# here are two lists:
-luckyNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15]
-friends = ["Kevin", "Karen", "jim", "oscar", "tim", "lord tennyson"]
-# instructions:
-######join both lists together in a new list
+# # here are two lists:
+# luckyNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15]
+# friends = ["Kevin", "Karen", "jim", "oscar", "tim", "lord tennyson"]
+# # instructions:
+# ######join both lists together in a new list
+# luckyNumbers.append(friends)
+# ###### print the new list out
+# print(luckyNumbers)
+# ###### print out the first item in the list
+# print(luckyNumbers[0])
+# ###### remove the last item of the new list
+# luckyNumbers.pop(-1)
+# ###### print the new list out without the last item
+# print(luckyNumbers)
+# ###### add three more items to the end of the list
+# luckyNumbers.append("Charger")
+# luckyNumbers.append("Mustang")
+# luckyNumbers.append("Camaro")
+# ###### print the last item in the new list
+# print(luckyNumbers[-1])
+# ###### sort the list
 
-###### print the new list out
-
-###### print out the first item in the list
-
-###### remove the last item of the new list
-
-###### print the new list out without the last item
-
-###### add three more items to the end of the list
-
-###### print the last item in the new list
-
-###### sort the list
-
+# sort(friends)
+# print(friends)
 ###### find a way to insert a new item at the 3rd position of the list
 
 ###### print the new list out
@@ -67,15 +71,19 @@ friends = ["Kevin", "Karen", "jim", "oscar", "tim", "lord tennyson"]
 #####################################challenge 2#######################################################
 # Join the following list into a string, separating each item with a space. Use the appropriate list/string method, and display the result.
 word_list = ["Simple", "is", "better", "than", "complex."]
+print(' '.join(word_list))
 
 # Print the following text in uppercase, using the specific string method:
 
-text1 = "Especially in electronic communications, writing in all caps is equivalent to yelling."
+# text1 = "Especially in electronic communications, writing in all caps is equivalent to yelling."
+# text1.lower()
+# print(text1)
 
 #substrings
 # Take every third character starting from the ninth to the end of the sentence, and print the result.
 
 text2 = "Never trust a computer you can't throw out a window"
+
 
 # Reverses the position of all the characters in the following sentence and displays the result on the screen.
 
