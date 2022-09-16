@@ -86,6 +86,7 @@ text2 = "Never trust a computer you can't throw out a window"
 print(text2[8::3])
 #text2[start:end:skip]
 
+
 # Reverses the position of all the characters in the following sentence and displays the result on the screen.
 
 text3 = "It's great to work with computers. They don't argue, they remember everything and they don't drink your beer"
