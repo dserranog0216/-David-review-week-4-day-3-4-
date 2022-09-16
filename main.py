@@ -128,13 +128,17 @@ print(coordinates2[1][1])
 
 # we use parentheses not [] in tuples
 my_tuple1 = (1, 2, 3, 4)
+print(my_tuple1[1])
 # get the second item in the tuple1 above
 my_tuple = (1, 2, (10, 20), 4)
+print(my_tuple1)
 # get the second item in the 3rd item above
 #hint multidimensional array thinking
 
 # place these numbers in separate variables from the tuple below
 t = (1, 2, 3)
+x,y,x = t
+print(x,y,z)
 
 #get me the length of the above tuple --- there are two ways of doing this... len(), count()...  use count if you want to get how many times an item appears in a tuple
 
