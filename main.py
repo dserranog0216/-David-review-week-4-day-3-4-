@@ -99,16 +99,16 @@
 # print("first word is : " + all_words[0])
 
 # create a text input that asks for choice of food
-foodChoice = input("what is your choice of food?")
-#create an empty list variable called food
-food =[]
-# add 3 items from the user into the empty list
-#print out the menu list
-food.append(foodChoice)
-food.append(foodChoice)
-food.append(foodChoice)
+# foodChoice = input("what is your choice of food?")
+# #create an empty list variable called food
+# food =[]
+# # add 3 items from the user into the empty list
+# #print out the menu list
+# food.append(foodChoice)
+# food.append(foodChoice)
+# food.append(foodChoice)
 
-print(food)
+# print(food)
 
 
 
@@ -120,8 +120,10 @@ print(food)
 #example
 coordinates = (4, 5)
 # get the first element in the above tuple
+# print(coordinates[1])
 # lets make this a multidimensional array
-coordindates2 = [(4, 5), (6, 7), (80, 34)]
+coordinates2 = [(4, 5), (6, 7), (80, 34)]
+print(coordinates2[1][1])
 #get the second element of the second item in coordinates2
 
 # we use parentheses not [] in tuples
